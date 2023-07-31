@@ -7,16 +7,17 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet"> 
     </head>
 
-    <body>
-        <header>
+    <body class="container-fluid">
+        <header style="position:fixed; width:100%;  top: 0; left: 0; width: 100%; padding: 0px 0; z-index: 1000;">
             @include('header')
         </header>
         
-        <main>
+        <main style="min-height:800px">
+            <div style="height:135px"></div>
             @yield('content')
         </main>
 
-        <footer>
+        <footer style="bottom: 0; left: 0; width: 100%; padding: 0 0; z-index: 1000;">
             @include('footer')
         </footer>
         <!-- Bootstrap -->

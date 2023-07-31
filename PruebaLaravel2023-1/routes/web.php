@@ -14,6 +14,6 @@ use App\Http\Controllers\HomeController;
 |
 */
 Route::get('/', [HomeController::class, 'home']);
-Route::view('/Home','layout');
+Route::view('/Home','home');
 //Route::get('/', 'HomeController@home');
 

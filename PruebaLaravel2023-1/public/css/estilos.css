@@ -1,6 +1,8 @@
 body
 {
     background-color: #F9F5EB;
+    max-width: 100%;
+    
 }
 
 
@@ -10,15 +12,15 @@ body
 }
 .bg-color-2
 {
-    background-color: #E4DCCF;
+    background-color: #0081C9;
 }
 .bg-color-3
 {
-    background-color: #EA5455;
+    background-color: #5BC0F8;
 }
 .bg-color-4
 {
-    background-color: #002B5B;
+    background-color: #FFC93C;
 }
 
 
@@ -28,13 +30,45 @@ body
 }
 .text-color-2
 {
-    color: #E4DCCF;
+    color: #0081C9;
 }
 .text-color-3
 {
-    color: #EA5455;
+    color: #5BC0F8;
 }
 .text-color-4
 {
-    color: #002B5B;
+    color: #FFC93C;
 }
+
+.title-footer{
+    text-align:center;
+    font-size:15px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('fonts/coolvetica.woff2') format('woff2'),
+         url('fonts/coolvetica.woff') format('woff');
+    /* Agrega más formatos si los tienes, como .ttf o .otf */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Aplicar la fuente Coolvetica a todos los h1 */
+  h1 {
+    font-family: 'Coolvetica', sans-serif;
+  }
+
+  .linke{
+    color: #F9F5EB;
+    transition: color 0.3s, cursor 0.3s;
+  }
+  .linke:link{
+    text-decoration: none;
+  }
+  .linke:hover {
+    color: #FFC93C;
+    cursor: pointer;
+  }
