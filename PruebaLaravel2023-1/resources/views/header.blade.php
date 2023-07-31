@@ -1,4 +1,4 @@
-<div class="bg-color-">
+<div class="bg-color-2 w-100 pt-1 pb-1">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -16,16 +16,16 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#"><b class="text-color-1">Inicio</b></a>
+                    <a style="font-size:15px" class="nav-link" aria-current="page" href="#"><b class="linke">Inicio</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#"><b class="text-color-1">Contactanos</b></a>
+                    <a style="font-size:15px" class="nav-link" aria-current="page" href="#"><b class="linke">Contactanos</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#"><b class="text-color-1">Sobre Nosotros</b></a>
+                    <a style="font-size:15px" class="nav-link" aria-current="page" href="#"><b class="linke">Sobre Nosotros</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#"><b class="text-color-1">Proyectos</b></a>
+                    <a style="font-size:15px" class="nav-link" aria-current="page" href="#"><b class="linke">Proyectos</b></a>
                 </li>
             <!--
                 <li class="nav-item">
